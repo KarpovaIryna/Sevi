@@ -168,9 +168,11 @@ textarea {
   border: none;
   background-color: #f4eef5;
 }
-.ba-search__field:hover, .ba-search__field:focus, .ba-search__field:active{
-	outline:none;
-	background: #fff0b3;
+.ba-search__field:hover,
+.ba-search__field:focus,
+.ba-search__field:active {
+  outline: none;
+  background: #fff0b3;
 }
 .ba-search__button {
   position: absolute;
@@ -195,48 +197,43 @@ input[type="search"]::-moz-placeholder {
 }
 /* -------=SECTION-2=-------- */
 .ba-resources {
-	padding: 156px 156px 150px;
-	height: 100vh;
-	background: url(../img/right-square.png) no-repeat right 28vh;
- }
+  padding: 156px 156px 150px;
+  height: 100vh;
+  background: url(../img/right-square.png) no-repeat right 28vh;
+}
+.ba-resources__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ba-resources__title {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 100px;
+}
+.ba-yellow-text {
+  color: #fdc800;
+}
+.ba-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 330px;
+}
+.ba-card__icon {
+  max-width: 140px;
+  margin-bottom: 55px;
+}
 
- .ba-resources__row {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
- }
- 
- .ba-resources__title {
-	text-align: center;
-	font-size: 52px;
-	margin-bottom: 100px;
- }
- 
- .ba-yellow-text {
-	color: #fdc800;
- }
- 
- .ba-card {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	max-width: 330px;
- }
- 
- .ba-card__icon {
-	max-width: 140px;
-	margin-bottom: 55px;
- }
- 
- .ba-card__title {
-	font-family: 'Nunito Sans', sans-serif;
-	font-size: 32px;
-	margin-bottom: 45px;
-	text-align: center;
- }
- 
- .ba-card__description {
-	list-style: none;
-	text-align: center;
-	padding: 0;
- }
+.ba-card__title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 32px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.ba-card__description {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
