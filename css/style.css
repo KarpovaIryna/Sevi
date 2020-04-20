@@ -181,6 +181,11 @@ textarea {
 	background: #723182;
 	transition: transform 0.3s, opacity 0.3s;
  }
+ @media screen and (min-width: 1024px) {
+	.ba-menu-toggle {
+	  display: none;
+	}
+ }
  @media (max-width: 1023px) {
 	.ba-nav {
 	  position: fixed;
@@ -326,6 +331,7 @@ input[type="search"]::-moz-placeholder {
   }
   .ba-nav{
 	width: 70%;
+	padding-top: 50px;
   }
   h1 {
     font-size: 35px;
@@ -394,6 +400,9 @@ input[type="search"]::-moz-placeholder {
     background: url(../img/left-square.png) no-repeat left 43vh;
     background-size: 5vh;
   }
+  .ba-nav{
+	padding-top: 50px;
+  }
   .ba-section__inner {
     width: 65%;
    min-height: 50vw;
@@ -436,8 +445,3 @@ input[type="search"]::-moz-placeholder {
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 1024px) {
-	.ba-menu-toggle {
-	  display: none;
-	}
- }
