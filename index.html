@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Sevi</title>
@@ -7,20 +8,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="description" content="" />
-	<link rel="icon" href="./img/favicon.png"/>
+	<link rel="icon" href="./img/favicon.png" />
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
 </head>
+
 <body>
 	<header class="ba-header">
 		<div class="ba-container">
 			<div class="ba-header__inner">
 				<a href="#" class="ba-header__logo">
-					<img src="./img/sevilogo.png" alt="logo" class="ba-header__image">
+					<img src="./img/sevilogo.png" alt="Sevi" class="ba-header__image">
 				</a>
-				<div class="ba-nav">
+
+
+
+
+				<nav class="ba-nav">
 					<ul class="ba-nav__list">
 						<li class="ba-nav__item">
 							<a href="#" class="ba-nav__link ba-nav__link--active">Home</a>
@@ -43,7 +49,16 @@
 						</li>
 					</ul>
 					<!-- /.ba-nav__list -->
-				</div>
+				</nav>
+
+
+					<button class="ba-menu-toggle" aria-label="Open menu" title="Open menu">
+						<span></span>
+					</button>
+
+
+
+			
 				<!-- /.ba-nav -->
 			</div>
 			<!-- /.ba-header__inner -->
@@ -59,17 +74,15 @@
 				<p class="ba-section__intro">Accelerating research discovery to shape a better future </p>
 				<!-- /.ba-hero__intro -->
 
-				<form action="" method="GET" class="ba-search">
-					<label class="ba-search__label">
-						<input type="search" name="search" minlength="1" placeholder="Search books, articles, keywords" class="ba-search__field" >
-						<button type="submit" class="ba-search__button"><svg class="ba-search__icon"
-							xmlns="http://www.w3.org/2000/svg"
-							xmlns:xlink="http://www.w3.org/1999/xlink"
-							width="36px" height="36px">
-						  <path fill-rule="evenodd"  opacity="0.6" fill="rgb(68, 34, 75)"
-							d="M26.387,23.209 L24.718,23.209 L24.127,22.639 C26.661,19.686 27.971,15.657 27.253,11.374 C26.260,5.509 21.360,0.826 15.447,0.109 C6.514,-0.989 -1.004,6.522 0.094,15.445 C0.812,21.352 5.500,26.247 11.371,27.238 C15.658,27.955 19.692,26.647 22.649,24.116 L23.219,24.707 L23.219,26.373 L32.194,35.339 C33.060,36.204 34.475,36.204 35.341,35.339 C36.207,34.474 36.207,33.060 35.341,32.196 L26.387,23.209 ZM13.715,23.209 C8.457,23.209 4.212,18.969 4.212,13.715 C4.212,8.463 8.457,4.222 13.715,4.222 C18.974,4.222 23.219,8.463 23.219,13.715 C23.219,18.969 18.974,23.209 13.715,23.209 Z"/>
-						  </svg></button>
-					</label>
+				<form action="#" method="GET" class="ba-search">
+					<input type="search" name="search" minlength="1" placeholder="Search books, articles, keywords"
+						class="ba-search__field">
+					<button type="submit" class="ba-search__button"><svg class="ba-search__icon"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36px"
+							height="36px">
+							<path fill-rule="evenodd" opacity="0.6" fill="rgb(68, 34, 75)"
+								d="M26.387,23.209 L24.718,23.209 L24.127,22.639 C26.661,19.686 27.971,15.657 27.253,11.374 C26.260,5.509 21.360,0.826 15.447,0.109 C6.514,-0.989 -1.004,6.522 0.094,15.445 C0.812,21.352 5.500,26.247 11.371,27.238 C15.658,27.955 19.692,26.647 22.649,24.116 L23.219,24.707 L23.219,26.373 L32.194,35.339 C33.060,36.204 34.475,36.204 35.341,35.339 C36.207,34.474 36.207,33.060 35.341,32.196 L26.387,23.209 ZM13.715,23.209 C8.457,23.209 4.212,18.969 4.212,13.715 C4.212,8.463 8.457,4.222 13.715,4.222 C18.974,4.222 23.219,8.463 23.219,13.715 C23.219,18.969 18.974,23.209 13.715,23.209 Z" />
+						</svg></button>
 					<!-- /.ba-search__field -->
 				</form>
 				<!-- /.ba-search -->
@@ -80,77 +93,80 @@
 		<!-- /.ba-container -->
 	</section>
 	<!-- /.ba-hero -->
-<section class="ba-resources">
-	<div class="ba-container">
-		<h2 class="ba-resources__title"> <span class="ba-yellow-text">Our</span> resources</h2>
-		<!-- /.ba-resources__title -->
+	<section class="ba-resources">
+		<div class="ba-container">
+			<h2 class="ba-resources__title"> <span class="ba-yellow-text">Our</span> resources</h2>
+			<!-- /.ba-resources__title -->
 
-		<div class="ba-resources__row">
-			<div class="ba-resources__item ba-card">
-				<img class="ba-card__icon" src="./img/Researchers.svg">
-				<!-- /.ba-card__icon -->
-				<h4 class="ba-card__title">Researchers</h4>
-				<!-- /.ba-card__title -->
-				<ul class="ba-card__description">
-					<li class="ba-card__point">Register online</li>
-					<li class="ba-card__point">Discover tools and manage alerts</li>
-					<li class="ba-card__point">Learn about how to access</li>
-				</ul>
-				<!-- /.ba-card__description -->
+			<div class="ba-resources__row">
+				<div class="ba-resources__item ba-card">
+					<img class="ba-card__icon" src="./img/Researchers.svg" alt="Researchers">
+					<!-- /.ba-card__icon -->
+					<h4 class="ba-card__title">Researchers</h4>
+					<!-- /.ba-card__title -->
+					<ul class="ba-card__description">
+						<li class="ba-card__point">Register online</li>
+						<li class="ba-card__point">Discover tools and manage alerts</li>
+						<li class="ba-card__point">Learn about how to access</li>
+					</ul>
+					<!-- /.ba-card__description -->
+				</div>
+				<!-- /.ba-resources__item -->
+
+
+				<div class="ba-resources__item ba-card">
+					<img class="ba-card__icon" src="./img/Librarian.svg" alt="Librarian">
+					<!-- /.ba-card__icon -->
+					<h4 class="ba-card__title">Librarian</h4>
+					<!-- /.ba-card__title -->
+					<ul class="ba-card__description">
+						<li class="ba-card__point">Manage your account</li>
+						<li class="ba-card__point">View products and solutions</li>
+						<li class="ba-card__point">Find resources and support</li>
+					</ul>
+					<!-- /.ba-card__description -->
+				</div>
+				<!-- /.ba-resources__item -->
+
+
+				<div class="ba-resources__item ba-card">
+					<img class="ba-card__icon" src="./img/Societies.svg" alt="Societies">
+					<h4 class="ba-card__title">Societies</h4>
+					<ul class="ba-card__description">
+						<li class="ba-card__point">Publish with Wiley</li>
+						<li class="ba-card__point">Explore our resource library</li>
+						<li class="ba-card__point">Learn about topics and trends</li>
+					</ul>
+					<!-- /.ba-card__description -->
+				</div>
+				<!-- /.ba-resources__item -->
+
+
+				<div class="ba-resources__item ba-card">
+					<img class="ba-card__icon" src="./img/Authors.svg" alt="Authors">
+					<h4 class="ba-card__title">Authors</h4>
+					<!-- /.ba-card__title -->
+					<ul class="ba-card__description">
+						<li class="ba-card__point">Submit a paper</li>
+						<li class="ba-card__point">Track your article</li>
+						<li class="ba-card__point">Learn about Open Access</li>
+					</ul>
+					<!-- /.ba-card__description -->
+				</div>
+				<!-- /.ba-resources__item -->
+
 			</div>
-			<!-- /.ba-resources__item -->
-
-
-			<div class="ba-resources__item ba-card">
-				<img class="ba-card__icon" src="./img/Librarian.svg">
-				<!-- /.ba-card__icon -->
-				<h4 class="ba-card__title">Librarian</h4>
-				<!-- /.ba-card__title -->
-				<ul class="ba-card__description">
-					<li class="ba-card__point">Manage your account</li>
-					<li class="ba-card__point">View products and solutions</li>
-					<li class="ba-card__point">Find resources and support</li>
-				</ul>
-				<!-- /.ba-card__description -->
-			</div>
-			<!-- /.ba-resources__item -->
-
-
-			<div class="ba-resources__item ba-card">
-				<img class="ba-card__icon" src="./img/Societies.svg">
-				<h4 class="ba-card__title">Societies</h4>
-				<ul class="ba-card__description">
-					<li class="ba-card__point">Publish with Wiley</li>
-					<li class="ba-card__point">Explore our resource library</li>
-					<li class="ba-card__point">Learn about topics and trends</li>
-				</ul>
-				<!-- /.ba-card__description -->
-			</div>
-			<!-- /.ba-resources__item -->
-
-
-			<div class="ba-resources__item ba-card">
-				<img class="ba-card__icon" src="./img/Authors.svg">
-				<h4 class="ba-card__title">Authors</h4>
-				<!-- /.ba-card__title -->
-				<ul class="ba-card__description">
-					<li class="ba-card__point">Submit a paper</li>
-					<li class="ba-card__point">Track your article</li>
-					<li class="ba-card__point">Learn about Open Access</li>
-				</ul>
-				<!-- /.ba-card__description -->
-			</div>
-			<!-- /.ba-resources__item -->
-
+			<!-- /.ba-resources__row -->
 		</div>
-		<!-- /.ba-resources__row -->
-	</div>
-	<!-- /.ba-container -->
-</section>
-<!-- /.ba-resources -->
+		<!-- /.ba-container -->
+	</section>
+	<!-- /.ba-resources -->
+	<script type="text/javascript">
+	let menuBtn = document.querySelector('.ba-menu-toggle');
+		let menu = document.querySelector('.ba-nav');
+		menuBtn.addEventListener('click', () => menu.classList.toggle('open'));
+		</script>
 
-
-</section>
-<!-- /.ba-section-2 -->
 </body>
+
 </html>
