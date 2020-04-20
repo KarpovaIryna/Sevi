@@ -19,8 +19,7 @@ h6 {
   margin: 0 0 70px;
 }
 h1 {
-  font-size: 76px;
-  font-weight: 600;
+	font: 800 76px/1.3 "Playfair Display", serif;
 }
 a {
   text-decoration: none;
