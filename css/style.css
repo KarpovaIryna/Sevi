@@ -1148,7 +1148,6 @@ input[type=search]::-moz-placeholder {
   color: #ffffff;
   font-size: 18px;
   padding: 10px 25px;
-  border: 1px solid #723182;
   text-decoration: none;
 }
 @media screen and (min-width: 1024px) {
@@ -1209,7 +1208,6 @@ input[type=search]::-moz-placeholder {
   color: #ffffff;
   font-size: 14px;
   padding: 10px 25px;
-  border: 1px solid #723182;
   text-decoration: none;
 }
 @media screen and (min-width: 1024px) {
@@ -1398,6 +1396,7 @@ input[type=search]::-moz-placeholder {
 @media screen and (min-width: 640px) {
   .ba-mob-lib {
     background-size: 52%;
+    min-height: 38vh;
     text-align: left;
   }
 }
@@ -1437,8 +1436,13 @@ input[type=search]::-moz-placeholder {
     line-height: 1.5;
   }
 }
-.ba-mob-lib__download a + a {
-  padding-left: 30px;
+.ba-mob-lib__download img {
+  border-radius: 12px;
+}
+@media screen and (min-width: 1024px) {
+  .ba-mob-lib__download a + a {
+    padding-left: 30px;
+  }
 }
 .ba-mob-lib__description {
   line-height: 1.9;
@@ -1475,25 +1479,42 @@ input[type=search]::-moz-placeholder {
   color: #44224b;
   font-family: "Nunito Sans";
   font-weight: 600;
-  font-size: 18px;
   text-decoration: none;
+  text-align: center;
 }
-@media screen and (min-width: 1026px) {
+@media screen and (min-width: 640px) {
   .ba-footer__main-link {
     font-size: 22px;
     margin-bottom: 20px;
+    text-align: left;
   }
 }
 .ba-footer__main-link:hover {
   text-decoration: underline;
 }
+.ba-footer-links-col {
+  width: 100%;
+  padding-left: 30px;
+}
 @media screen and (min-width: 640px) {
   .ba-footer-links-col {
-    width: 50%;
+    width: 100%;
     padding-left: 30px;
   }
+  .ba-footer-links-col:nth-child(2) {
+    width: 25%;
+  }
+  .ba-footer-links-col:nth-child(3) {
+    width: 25%;
+  }
+  .ba-footer-links-col:nth-child(4) {
+    width: 25%;
+  }
+  .ba-footer-links-col:nth-child(5) {
+    width: 25%;
+  }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1026px) {
   .ba-footer-links-col {
     width: 23%;
   }
@@ -1522,6 +1543,12 @@ input[type=search]::-moz-placeholder {
   padding: 0;
   list-style: none;
   font-size: 18px;
+  text-align: center;
+}
+@media screen and (min-width: 640px) {
+  .ba-footer-list {
+    text-align: left;
+  }
 }
 .ba-footer-list li + li {
   margin-top: 3px;
